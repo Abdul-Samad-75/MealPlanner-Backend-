@@ -5,9 +5,6 @@ import authRoutes from "./router/userRoutes.js";
 import recipeRoutes from "./router/receipeRouter.js";
 import cors from "cors"
 
-
-
-
 const app = express();
 
 app.get("/", (req, res) => {
@@ -23,7 +20,7 @@ app.use(express.json())
 
 // Step 1: Configure CORS options (optional)
 const corsOptions = {
-    origin: 'https://kaleidoscopic-cannoli-149866.netlify.app/', // Replace with your frontend URL
+    origin: 'https://tangerine-concha-049168.netlify.app/', // Replace with your frontend URL
     methods: 'GET,POST,PUT,DELETE', // Specify allowed methods
     allowedHeaders: 'Content-Type,Authorization', // Specify allowed headers
 };
