@@ -1,8 +1,10 @@
 
 # API Documentation
 
-## User Routes
+#Deployed API
+https://backend1-ly8d.onrender.com/
 
+## User Routes
 ### POST /api/register
 **Purpose:** Creates a new user account.
 
@@ -89,7 +91,7 @@
   {"message": "Failed to fetch recipes", "error": "error details"}
   ```
 
-### GET /api/sortby?sortbyCalories=<sortOrder>
+### GET /api/sortBy?sortField=<calories>&sortOrder=<ASC>
 **Purpose:** Sort recipes by calories in ascending (ASC) or descending (DESC) order.
 
 #### Query Parameter:
