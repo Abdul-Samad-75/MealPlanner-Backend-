@@ -20,7 +20,7 @@ app.use(express.json())
 
 // Step 1: Configure CORS options (optional)
 const corsOptions = {
-    origin: 'https://prismatic-medovik-0a4ea3.netlify.app', // Replace with your frontend URL
+    origin: 'https://dapper-crumble-e286ff.netlify.app', // Replace with your frontend URL
     methods: 'GET,POST,PUT,DELETE', // Specify allowed methods
     allowedHeaders: 'Content-Type,Authorization', // Specify allowed headers
 };
