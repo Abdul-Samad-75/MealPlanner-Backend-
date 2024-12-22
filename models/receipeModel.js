@@ -8,6 +8,7 @@ const receipeSchema = new Schema(
     ingredients: { type: [String], required: true },
     calories: { type: Number, required: true },
     dietaryPreference: { type: [String], required: true },
+    recipe:{type:String}
   },
   { timestamps: true }
 );
