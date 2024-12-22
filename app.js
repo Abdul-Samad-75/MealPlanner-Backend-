@@ -20,7 +20,7 @@ app.use(express.json())
 
 // Step 1: Configure CORS options (optional)
 const corsOptions = {
-    origin: 'https://silver-fudge-a8797e.netlify.app', // Replace with your frontend URL
+    origin: 'https://strong-frangipane-1d9999.netlify.app', // Replace with your frontend URL
     methods: 'GET,POST,PUT,DELETE', // Specify allowed methods
     allowedHeaders: 'Content-Type,Authorization', // Specify allowed headers
 };
