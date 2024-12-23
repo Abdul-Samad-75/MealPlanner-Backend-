@@ -53,7 +53,7 @@
 
 ## Recipe Routes
 
-### GET /api/
+### GET /api/recipes
 **Purpose:** Retrieves all recipes.
 
 #### Response:
@@ -63,7 +63,7 @@
   {"message": "Failed to fetch recipes", "error": "error details"}
   ```
 
-### GET /api/search?name=<recipe_name>
+### GET /api/recipessearch?name=<recipe_name>
 **Purpose:** Search recipes by name.
 
 #### Query Parameters:
@@ -76,7 +76,7 @@
   {"message": "Failed to fetch recipes", "error": "error details"}
   ```
 
-### GET /api/filter?mealType=<mealType>&dietaryPreference=<dietaryPreference>
+### GET /api/recipes/filter?mealType=<mealType>&dietaryPreference=<dietaryPreference>
 **Purpose:** Filter recipes by meal type and dietary preference.
 
 #### Query Parameters:
@@ -90,7 +90,7 @@
   {"message": "Failed to fetch recipes", "error": "error details"}
   ```
 
-### GET /api/sortBy?sortField=<caloried>&sortOrder=<ASC>
+### GET /api/recipes/sortBy?sortField=<caloried>&sortOrder=<ASC>
 **Purpose:** Sort recipes by calories in ascending (ASC) or descending (DESC) order.
 
 #### Query Parameter:
