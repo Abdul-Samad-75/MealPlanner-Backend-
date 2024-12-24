@@ -63,7 +63,7 @@
   {"message": "Failed to fetch recipes", "error": "error details"}
   ```
 
-### GET /api/recipessearch?name=<recipe_name>
+### GET /api/recipes/search?name=<recipe_name>
 **Purpose:** Search recipes by name.
 
 #### Query Parameters:
