@@ -19,14 +19,14 @@ app.get('/about', (req,res) => {
 app.use(express.json())
 
 // Step 1: Configure CORS options (optional)
-const corsOptions = {
-    origin: 'https://dynamic-bavarois-fe09d0.netlify.app', // Replace with your frontend URL
-    methods: 'GET,POST,PUT,DELETE', // Specify allowed methods
-    allowedHeaders: 'Content-Type,Authorization', // Specify allowed headers
-};
+// const corsOptions = {
+//     origin: 'https://dynamic-bavarois-fe09d0.netlify.app', // Replace with your frontend URL
+//     methods: 'GET,POST,PUT,DELETE', // Specify allowed methods
+//     allowedHeaders: 'Content-Type,Authorization', // Specify allowed headers
+// };
   
 // Step 2: Apply CORS middleware
-app.use(cors(corsOptions));
+app.use(cors()); //apply for all frontends
 
 //routes
 app.use('/api', authRoutes)
