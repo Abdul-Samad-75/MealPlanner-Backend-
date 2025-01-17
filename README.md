@@ -1,6 +1,6 @@
 
 # API Documentation
-#Deployed Backend url https://backend1-8.onrender.com
+#Deployed Backend url https://mealplanner-backend-8v3d.onrender.com
 
 ## User Routes
 
