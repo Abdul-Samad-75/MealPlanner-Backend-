@@ -1,4 +1,4 @@
-
+https://dynamic-bavarois-fe09d0.netlify.app/
 # API Documentation
 #Deployed Backend url https://mealplanner-backend-8v3d.onrender.com
 
